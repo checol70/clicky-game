@@ -14,20 +14,20 @@ class GameController extends Component {
     componentDidMount() {
         this.setState({
             images: [
-                new Image("/Images/Anjanath.png", "Anjanath"),
-                new Image("/Images/Barroth.png", "Barroth"),
-                new Image("/Images/Bazelgeuse.png", "Bazelgeuse"),
-                new Image("/Images/Diablos.png", "Diablos"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Anjanath.png", "Anjanath"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Barroth.png", "Barroth"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Bazelgeuse.png", "Bazelgeuse"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Diablos.png", "Diablos"),
 
-                new Image("/Images/Gajalaka.png", "Gajalaka"),
-                new Image("/Images/Jyuratodus.png", "Jyuratadus"),
-                new Image("/Images/kestodon.png", "Kestodon"),
-                new Image("/Images/Legiana.png", "Legiana"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Gajalaka.png", "Gajalaka"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Jyuratodus.png", "Jyuratadus"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/kestodon.png", "Kestodon"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Legiana.png", "Legiana"),
 
-                new Image("/Images/Paolumu.png", "Paolumu"),
-                new Image("/Images/Rathian.png", "Rathian"),
-                new Image("/Images/tigrex_magma.png", "Tigrex Magma"),
-                new Image("/Images/Vaal_Hazak.png", "Vaal Hazak")
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Paolumu.png", "Paolumu"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Rathian.png", "Rathian"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/tigrex_magma.png", "Tigrex Magma"),
+                new Image("D:/ClassWork/clicky-game/public/assets/Images/Vaal_Hazak.png", "Vaal Hazak")
             ],
             currentScore: 0,
             topScore: 0
@@ -111,8 +111,7 @@ class GameController extends Component {
                 <Row>
                     {this.state.images.map((e, i) => (
                         <Col size="md-4 sm-6" className="text-centered"key ={i}>
-                            <ClickyItem {...e} key={i} onClick={() => this.handleClick(i)}>
-                            </ClickyItem>
+                            <ClickyItem {...e} key={i} onClick={() => this.handleClick(i)} />
                         </Col>
                     ))}
                 </Row>
