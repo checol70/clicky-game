@@ -10,7 +10,7 @@ import Diablos from "../../assets/Images/Diablos.png"
 
 import Gajalaka from "../../assets/Images/Gajalaka.png"
 import Jyuratodus from "../../assets/Images/Jyuratodus.png"
-import Kestodon from "../../assets/Images/Kestodon.png"
+import Kestodon from "../../assets/Images/kestodon.png"
 import Legiana from "../../assets/Images/Legiana.png"
 
 import Paolumu from "../../assets/Images/Paolumu.png"
