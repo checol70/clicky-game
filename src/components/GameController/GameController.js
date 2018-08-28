@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import ClickyItem from "../ClickyItem";
-import Image from "../../utils/image-class"
-import { Col, Row, Container } from "../Grid"
+import Image from "../../utils/image-class";
+import { Col, Row, Container } from "../Grid";
+import Anjanath from "../../assets/Images/Anjanath.png";
 
 class GameController extends Component {
     state = {
         images: [
-            new Image("/assets/Images/Anjanath.png", "Anjanath"),
+            new Image(Anjanath, "Anjanath"),
             new Image("/assets/Images/Barroth.png", "Barroth"),
             new Image("/assets/Images/Bazelgeuse.png", "Bazelgeuse"),
             new Image("/assets/Images/Diablos.png", "Diablos"),
