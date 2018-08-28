@@ -15,8 +15,8 @@ import Legiana from "../../assets/Images/Legiana.png"
 
 import Paolumu from "../../assets/Images/Paolumu.png"
 import Rathian from "../../assets/Images/Rathian.png"
-import TigrexMagma from "../../assets/Images/TigrexMagma.png"
-import VaalHazak from "../../assets/Images/VaalHazak.png"
+import TigrexMagma from "../../assets/Images/tigrex_magma.png"
+import VaalHazak from "../../assets/Images/Vaal_Hazak.png"
 
 class GameController extends Component {
     state = {
