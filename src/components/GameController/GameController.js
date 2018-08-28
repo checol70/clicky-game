@@ -14,20 +14,20 @@ class GameController extends Component {
     componentDidMount() {
         this.setState({
             images: [
-                new Image("/Images/Anjanath.png", "Anjanath"),
-                new Image("/Images/Barroth.png", "Barroth"),
-                new Image("/Images/Bazelgeuse.png", "Bazelgeuse"),
-                new Image("/Images/Diablos.png", "Diablos"),
+                new Image("../Images/Anjanath.png", "Anjanath"),
+                new Image("../Images/Barroth.png", "Barroth"),
+                new Image("../Images/Bazelgeuse.png", "Bazelgeuse"),
+                new Image("../Images/Diablos.png", "Diablos"),
 
-                new Image("/Images/Gajalaka.png", "Gajalaka"),
-                new Image("/Images/Jyuratodus.png", "Jyuratadus"),
-                new Image("/Images/kestodon.png", "Kestodon"),
-                new Image("/Images/Legiana.png", "Legiana"),
+                new Image("../Images/Gajalaka.png", "Gajalaka"),
+                new Image("../Images/Jyuratodus.png", "Jyuratadus"),
+                new Image("../Images/kestodon.png", "Kestodon"),
+                new Image("../Images/Legiana.png", "Legiana"),
 
-                new Image("/Images/Paolumu.png", "Paolumu"),
-                new Image("/Images/Rathian.png", "Rathian"),
-                new Image("/Images/tigrex_magma.png", "Tigrex Magma"),
-                new Image("/Images/Vaal_Hazak.png", "Vaal Hazak")
+                new Image("../Images/Paolumu.png", "Paolumu"),
+                new Image("../Images/Rathian.png", "Rathian"),
+                new Image("../Images/tigrex_magma.png", "Tigrex Magma"),
+                new Image("../Images/Vaal_Hazak.png", "Vaal Hazak")
             ],
             currentScore: 0,
             topScore: 0
