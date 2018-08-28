@@ -110,7 +110,7 @@ class GameController extends Component {
                 </Row>
                 <Row>
                     {this.state.images.map((e, i) => (
-                        <Col size="md-4 sm-6" className="text-centered">
+                        <Col size="md-4 sm-6" className="text-centered"key ={i}>
                             <ClickyItem {...e} key={i} onClick={() => this.handleClick(i)}>
                             </ClickyItem>
                         </Col>
