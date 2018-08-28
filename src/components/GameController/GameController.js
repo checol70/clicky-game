@@ -6,20 +6,20 @@ import { Col, Row, Container } from "../Grid"
 class GameController extends Component {
     state = {
         images: [
-            new Image("../../../public/assets/Images/Anjanath.png", "Anjanath"),
-            new Image("../../../public/assets/Images/Barroth.png", "Barroth"),
-            new Image("../../../public/assets/Images/Bazelgeuse.png", "Bazelgeuse"),
-            new Image("../../../public/assets/Images/Diablos.png", "Diablos"),
+            new Image("/assets/Images/Anjanath.png", "Anjanath"),
+            new Image("/assets/Images/Barroth.png", "Barroth"),
+            new Image("/assets/Images/Bazelgeuse.png", "Bazelgeuse"),
+            new Image("/assets/Images/Diablos.png", "Diablos"),
 
-            new Image("../../../public/assets/Images/Gajalaka.png", "Gajalaka"),
-            new Image("../../../public/assets/Images/Jyuratodus.png", "Jyuratadus"),
-            new Image("../../../public/assets/Images/kestodon.png", "Kestodon"),
-            new Image("../../../public/assets/Images/Legiana.png", "Legiana"),
+            new Image("/assets/Images/Gajalaka.png", "Gajalaka"),
+            new Image("/assets/Images/Jyuratodus.png", "Jyuratadus"),
+            new Image("/assets/Images/kestodon.png", "Kestodon"),
+            new Image("/assets/Images/Legiana.png", "Legiana"),
 
-            new Image("../../../public/assets/Images/Paolumu.png", "Paolumu"),
-            new Image("../../../public/assets/Images/Rathian.png", "Rathian"),
-            new Image("../../../public/assets/Images/tigrex_magma.png", "Tigrex Magma"),
-            new Image("../../../public/assets/Images/Vaal_Hazak.png", "Vaal Hazak")
+            new Image("/assets/Images/Paolumu.png", "Paolumu"),
+            new Image("/assets/Images/Rathian.png", "Rathian"),
+            new Image("/assets/Images/tigrex_magma.png", "Tigrex Magma"),
+            new Image("/assets/Images/Vaal_Hazak.png", "Vaal Hazak")
         ],
         currentScore: 0,
         topScore: 0,
