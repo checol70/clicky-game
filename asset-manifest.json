@@ -1,5 +1,16 @@
 {
-  "main.js": "static/js/main.9108ff40.js",
-  "main.js.map": "static/js/main.9108ff40.js.map",
-  "static\\media\\Anjanath.png": "static/media/Anjanath.3157fc71.png"
+  "main.js": "static/js/main.86d85f50.js",
+  "main.js.map": "static/js/main.86d85f50.js.map",
+  "static\\media\\Anjanath.png": "static/media/Anjanath.3157fc71.png",
+  "static\\media\\Barroth.png": "static/media/Barroth.f1f89738.png",
+  "static\\media\\Bazelgeuse.png": "static/media/Bazelgeuse.4bf5c1a9.png",
+  "static\\media\\Diablos.png": "static/media/Diablos.41dcf5f8.png",
+  "static\\media\\Gajalaka.png": "static/media/Gajalaka.0f0d33ee.png",
+  "static\\media\\Jyuratodus.png": "static/media/Jyuratodus.f472dee2.png",
+  "static\\media\\Legiana.png": "static/media/Legiana.2e4c36ed.png",
+  "static\\media\\Paolumu.png": "static/media/Paolumu.cf216f27.png",
+  "static\\media\\Rathian.png": "static/media/Rathian.1b32e1d5.png",
+  "static\\media\\Vaal_Hazak.png": "static/media/Vaal_Hazak.853e8607.png",
+  "static\\media\\kestodon.png": "static/media/kestodon.d3c77488.png",
+  "static\\media\\tigrex_magma.png": "static/media/tigrex_magma.57575fd5.png"
 }
