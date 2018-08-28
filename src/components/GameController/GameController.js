@@ -2,25 +2,39 @@ import React, { Component } from "react";
 import ClickyItem from "../ClickyItem";
 import Image from "../../utils/image-class";
 import { Col, Row, Container } from "../Grid";
+
 import Anjanath from "../../assets/Images/Anjanath.png";
+import Barroth from "../../assets/Images/Barroth.png"
+import Bazelgeuse from "../../assets/Images/Bazelgeuse.png"
+import Diablos from "../../assets/Images/Diablos.png"
+
+import Gajalaka from "../../assets/Images/Gajalaka.png"
+import Jyuratodus from "../../assets/Images/Jyuratodus.png"
+import Kestodon from "../../assets/Images/Kestodon.png"
+import Legiana from "../../assets/Images/Legiana.png"
+
+import Paolumu from "../../assets/Images/Paolumu.png"
+import Rathian from "../../assets/Images/Rathian.png"
+import TigrexMagma from "../../assets/Images/TigrexMagma.png"
+import VaalHazak from "../../assets/Images/VaalHazak.png"
 
 class GameController extends Component {
     state = {
         images: [
             new Image(Anjanath, "Anjanath"),
-            new Image("/assets/Images/Barroth.png", "Barroth"),
-            new Image("/assets/Images/Bazelgeuse.png", "Bazelgeuse"),
-            new Image("/assets/Images/Diablos.png", "Diablos"),
+            new Image(Barroth, "Barroth"),
+            new Image(Bazelgeuse, "Bazelgeuse"),
+            new Image(Diablos, "Diablos"),
 
-            new Image("/assets/Images/Gajalaka.png", "Gajalaka"),
-            new Image("/assets/Images/Jyuratodus.png", "Jyuratadus"),
-            new Image("/assets/Images/kestodon.png", "Kestodon"),
-            new Image("/assets/Images/Legiana.png", "Legiana"),
+            new Image(Gajalaka, "Gajalaka"),
+            new Image(Jyuratodus, "Jyuratadus"),
+            new Image(Kestodon, "Kestodon"),
+            new Image(Legiana, "Legiana"),
 
-            new Image("/assets/Images/Paolumu.png", "Paolumu"),
-            new Image("/assets/Images/Rathian.png", "Rathian"),
-            new Image("/assets/Images/tigrex_magma.png", "Tigrex Magma"),
-            new Image("/assets/Images/Vaal_Hazak.png", "Vaal Hazak")
+            new Image(Paolumu, "Paolumu"),
+            new Image(Rathian, "Rathian"),
+            new Image(TigrexMagma, "Tigrex Magma"),
+            new Image(VaalHazak, "Vaal Hazak")
         ],
         currentScore: 0,
         topScore: 0,
